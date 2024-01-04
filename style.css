@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+  
+nav {
+    background-color: #4CAF50;
+}
+  
+nav a {
+    color: #fff !important;
+}
+  
+#carousel {
+    margin-top: 20px;
+}
+
+.carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out;
+}
+
+.hero-image {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+  
+.categories {
+    margin: 20px;
+}
+  
+.category-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+  
